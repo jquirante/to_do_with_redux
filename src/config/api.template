@@ -1,0 +1,7 @@
+export const BASE_URL = '';
+export const API_KEY = '';
+
+export default {
+    API_KEY: '',
+    BASE_URL: ''
+}
