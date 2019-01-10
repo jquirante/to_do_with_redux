@@ -8,7 +8,7 @@ import rootReducer from './reducers';
 
 import App from './components/app';
 
-const store = createStore(rootReducer, applyMiddleware(reduxPromise));
+const store = createStore(rootReducer, {}, applyMiddleware(reduxPromise));
 
 ReactDOM.render(
     <Provider store={store}>
